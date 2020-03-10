@@ -18,6 +18,14 @@ Clone project and then install dependencies
 
 ## Usage
 
+Parameters
+|               | Amount        | From Currency | To Currency   |
+| ------------- | ------------- | ------------- | ------------- |
+| Default Value | 1             | USD           | BTC           |
+| Required      | No            | No            | No            |
+
+You need to use the currency codes for the program to work, use BTC for Bitcoin
+
 ```sh
 > node cli.js <valueToConvert> <FromCurrency> <ToCurrency>
 ```
