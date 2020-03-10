@@ -8,6 +8,7 @@ Bitcoin currenct is also supported
 Clone project and then install dependencies
 
 <details><summary><b>Show instructions</b></summary>
+
 1. Clone:
     ```sh
     > cd your/directory/here
@@ -19,7 +20,7 @@ Clone project and then install dependencies
     > cd /3-musketeers
     > npm install
     ```
-    
+
 </details>
 
 ## Usage
