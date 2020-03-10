@@ -25,6 +25,8 @@ Clone project and then install dependencies
 
 ## Usage
 
+The script takes in 3 parameters to work, the amount you want to convert, the currency from and to which you want to convert
+
 Parameters
 |               | Amount        | From Currency | To Currency   |
 | ------------- | ------------- | ------------- | ------------- |
@@ -42,3 +44,25 @@ Example
 > node cli.js 10 EUR BTC
 > 10 EUR = 0.0014414476747286835 BTC
 ```
+
+## Tests
+
+Tests are handled by Jest
+Do the following to test :
+
+```sh
+> npm test
+> TODO
+```
+
+## Help
+
+In case you need to help you can use --help :
+
+```sh
+> cli.js --help
+```
+
+In case you have an error, check if your currency codes are correct
+
+Happy Converting !
