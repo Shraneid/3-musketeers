@@ -8,12 +8,18 @@ Bitcoin currenct is also supported
 Clone project and then install dependencies
 
 <details><summary><b>Show instructions</b></summary>
-```sh
-> cd your/directory/here
-> git clone https://github.com/Shraneid/3-musketeers
-> cd /3-musketeers
-> npm install
-```
+1. Clone:
+    ```sh
+    > cd your/directory/here
+    > git clone https://github.com/Shraneid/3-musketeers
+    ```
+
+2. Install dependencies:
+    ```sh
+    > cd /3-musketeers
+    > npm install
+    ```
+    
 </details>
 
 ## Usage
@@ -32,6 +38,6 @@ You need to use the currency codes for the program to work, use BTC for Bitcoin
 
 Example
 ```sh
-> node .\cli.js 10 EUR BTC
+> node cli.js 10 EUR BTC
 > 10 EUR = 0.0014414476747286835 BTC
 ```
